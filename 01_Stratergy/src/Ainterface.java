@@ -1,7 +1,7 @@
 
 public interface Ainterface {
 
-	// ±â´É¿¡ ´ëÇÑ ¼±¾ð
+	// ì„ ì–¸ë¶€
 	public void funcA();
 
 }

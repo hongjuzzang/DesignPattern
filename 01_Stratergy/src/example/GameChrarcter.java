@@ -2,10 +2,10 @@ package example;
 
 public class GameChrarcter {
 
-	// Á¢±ÙÁ¡
+	// ì ‘ê·¼ì 
 	Weapon weapon;
 
-	// ±³È¯ °¡´ÉÇÏ°Ô ÇÏ´Â ÇÔ¼ö
+	// êµí™˜ê°€ëŠ¥
 	public void setWeapon(Weapon weapon) {
 		this.weapon = weapon;
 	}
@@ -13,10 +13,10 @@ public class GameChrarcter {
 	public void attack() {
 		// TODO Auto-generated method stub
 		if (weapon == null) {
-			System.out.println("¸Ç¼Õ °ø°İ");
+			System.out.println("ë§¨ì† ê³µê²©");
 		} else {
 
-			// µ¨¸®°ÔÀÌÆ® : weaponÀÇ attackÀ» ½ÇÇàÇÔ
+			// ë¸ë¦¬ê²Œì´íŠ¸ : ê°€ì§„ ë¬´ê¸°ì— ë”°ë¥¸ attack ì‹¤í–‰
 			weapon.attack();
 		}
 	}

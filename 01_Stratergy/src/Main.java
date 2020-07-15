@@ -4,9 +4,9 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		// ¼±¾ğÀº ÀÎÅÍÆäÀÌ½º ³»ºÎ, ±¸ÇöÀº Å¬·¡½º ³»ºÎ¿¡¼­
+		// ì¸í„°í˜ì´ìŠ¤ì—ì„œ ì„ ì–¸, ê°ì²´ì—ì„œ ì‹¤í–‰
 		Ainterface ainterface= new AinterfaceImpl();
-		//A ÀÎÅÍÆäÀÌ½º¸¦ »ç¿ëÇÒ ¼ö ÀÖ´Â Åë·Î
+		// í†µë¡œ
 		ainterface.funcA();
 		
 		AObj aobj = new AObj();

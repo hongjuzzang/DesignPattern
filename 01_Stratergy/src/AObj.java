@@ -11,7 +11,6 @@ public class AObj {
 		ainterface.funcA();
 		ainterface.funcA();
 
-		// System.out.println("AAA");¿Í ´ëÃ¼°¡´ÉÇÔ
-		//¾î¶² ±â´ÉÀ» ±¸ÇöÇÒ¶§ ´Ù¸¥ °´Ã¼ÀÇ ±â´ÉÀ» ºô·Á »ç¿ëÇÏ´Â °Í -> À§ÀÓÇÑ´Ù
+		// System.out.println("AAA"); ì™€ ê°™ì€ ê¸°ëŠ¥ì„ í•¨
 	}
 }

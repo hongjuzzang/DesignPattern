@@ -13,7 +13,7 @@ public class Main {
 		hongju.setWeapon(new Sword());
 		hongju.attack();
 		
-		// ¹«±â Ãß°¡
+		// ë„ë¼ ì¶”ê°€
 		hongju.setWeapon(new Axe());
 		hongju.attack();
 	}

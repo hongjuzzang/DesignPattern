@@ -5,7 +5,7 @@ public class Axe implements Weapon {
 	@Override
 	public void attack() {
 		// TODO Auto-generated method stub
-		System.out.println("µµ³¢ °ø°İ!");
+		System.out.println("ë„ë¼ ê³µê²© !");
 	}
 
 }
