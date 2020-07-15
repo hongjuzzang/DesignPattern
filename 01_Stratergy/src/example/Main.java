@@ -12,6 +12,10 @@ public class Main {
 
 		hongju.setWeapon(new Sword());
 		hongju.attack();
+		
+		// 무기 추가
+		hongju.setWeapon(new Axe());
+		hongju.attack();
 	}
 
 }
