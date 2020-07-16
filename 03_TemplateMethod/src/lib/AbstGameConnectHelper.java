@@ -33,6 +33,8 @@ public abstract class AbstGameConnectHelper {
 		String userName = "";
 		int i = authorization(userName);
 		switch (i) {
+		case -1:
+			throw new Error("10시 이후 접속 불가한 유저야");
 		case 0:
 			System.out.println("게임 매니저");
 			break;
