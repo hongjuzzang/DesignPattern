@@ -13,6 +13,9 @@ public class SystemSpeaker {
 		// 1회 생성을 위함
 		if (instance == null) {
 			instance = new SystemSpeaker();
+			System.out.println("새로 생성");
+		}else {
+			System.out.println("이미 생성");
 		}
 		return instance;
 	}
