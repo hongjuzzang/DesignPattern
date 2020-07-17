@@ -11,6 +11,8 @@ public class Circle extends Shape {
 
 	public Circle copy() throws CloneNotSupportedException {
 		Circle circle = (Circle) clone();
+		circle.x = x + 1;
+		circle.y = y + 1;
 		return circle;
 	}
 
