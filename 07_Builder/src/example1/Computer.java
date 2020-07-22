@@ -1,3 +1,4 @@
+package example1;
 
 public class Computer {
 	private String cpu;
