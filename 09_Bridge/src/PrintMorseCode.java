@@ -1,5 +1,10 @@
 
 public class PrintMorseCode extends MorseCode {
+	public PrintMorseCode(MorseCodeFunction function) {
+		super(function);
+		// TODO Auto-generated constructor stub
+	}
+
 	public PrintMorseCode g() {
 		dash();
 		dash();

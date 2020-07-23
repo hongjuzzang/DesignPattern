@@ -1,16 +1,26 @@
 
 public class MorseCode {
+	private MorseCodeFunction function;
+
+	public MorseCode(MorseCodeFunction function) {
+		// TODO Auto-generated constructor stub
+		this.function = function;
+	}
+
+	public void setFunction(MorseCodeFunction function) {
+		this.function = function;
+	}
+
 	public void dot() {
-		System.out.print("·");
+		function.dot();
 	}
 
 	public void dash() {
-		System.out.print("-");
+		function.dash();
 
 	}
 
 	public void space() {
-		System.out.print(" ");
-
+		function.space();
 	}
 }
